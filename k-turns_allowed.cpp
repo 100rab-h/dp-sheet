@@ -1,3 +1,5 @@
+// Memoization Solution.
+
 int mod = 1e9 + 7;
 int f(int i, int j, int k, int dir, vector<vector<vector<vector<int>>>> &dp) {
     if (i == 0 and j == 0) return 1;
