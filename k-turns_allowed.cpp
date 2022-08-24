@@ -33,3 +33,5 @@ int kTurnsAround(int n, int m, int k)
     vector<vector<vector<vector<int>>>> dp(n, vector<vector<vector<int>>> (m, vector<vector<int>> (k + 1, vector<int> (2, -1))));
     return fn(n - 1, m - 1, k, dp);
 }
+
+// https://www.codingninjas.com/codestudio/problems/k-turns-allowed_893400?topList=top-amazon-coding-interview-questions
